@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E74FB4A6-47D8-4566-8EC3-01FC9C55197C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Producers.Awards.Api", "src\Movie.Producers.Awards.Api\Movie.Producers.Awards.Api.csproj", "{4431FD4B-58EB-416F-8378-B3C4B25CAD79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Producers.Awards.Application", "src\Movie.Producers.Awards.Application\Movie.Producers.Awards.Application.csproj", "{0B28AB55-5A34-412C-8B5F-57094810F0A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Producers.Awards.Domain", "src\Movie.Producers.Awards.Domain\Movie.Producers.Awards.Domain.csproj", "{1A5E117D-20AA-41FD-A406-908D778E5A23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Producers.Awards.Infra", "src\Movie.Producers.Awards.Infra\Movie.Producers.Awards.Infra.csproj", "{909D9AD0-D185-4721-86B5-C4F9F9557834}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{71C53E05-061E-4206-A4A7-DF66540D62E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie.Producers.Awards.Tests", "test\Movie.Producers.Awards.Tests\Movie.Producers.Awards.Tests.csproj", "{BCBC7805-27E2-46B9-9848-B6762E980E66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieProducers.Awards.IntegrationTests", "test\MovieProducers.Awards.IntegrationTests\MovieProducers.Awards.IntegrationTests.csproj", "{5954E66D-7B4C-47FC-B11E-A3FA50D163D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4431FD4B-58EB-416F-8378-B3C4B25CAD79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4431FD4B-58EB-416F-8378-B3C4B25CAD79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4431FD4B-58EB-416F-8378-B3C4B25CAD79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4431FD4B-58EB-416F-8378-B3C4B25CAD79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B28AB55-5A34-412C-8B5F-57094810F0A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B28AB55-5A34-412C-8B5F-57094810F0A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B28AB55-5A34-412C-8B5F-57094810F0A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B28AB55-5A34-412C-8B5F-57094810F0A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A5E117D-20AA-41FD-A406-908D778E5A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A5E117D-20AA-41FD-A406-908D778E5A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A5E117D-20AA-41FD-A406-908D778E5A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A5E117D-20AA-41FD-A406-908D778E5A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{909D9AD0-D185-4721-86B5-C4F9F9557834}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{909D9AD0-D185-4721-86B5-C4F9F9557834}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{909D9AD0-D185-4721-86B5-C4F9F9557834}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{909D9AD0-D185-4721-86B5-C4F9F9557834}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCBC7805-27E2-46B9-9848-B6762E980E66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCBC7805-27E2-46B9-9848-B6762E980E66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCBC7805-27E2-46B9-9848-B6762E980E66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCBC7805-27E2-46B9-9848-B6762E980E66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5954E66D-7B4C-47FC-B11E-A3FA50D163D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5954E66D-7B4C-47FC-B11E-A3FA50D163D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5954E66D-7B4C-47FC-B11E-A3FA50D163D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5954E66D-7B4C-47FC-B11E-A3FA50D163D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4431FD4B-58EB-416F-8378-B3C4B25CAD79} = {E74FB4A6-47D8-4566-8EC3-01FC9C55197C}
+		{0B28AB55-5A34-412C-8B5F-57094810F0A9} = {E74FB4A6-47D8-4566-8EC3-01FC9C55197C}
+		{1A5E117D-20AA-41FD-A406-908D778E5A23} = {E74FB4A6-47D8-4566-8EC3-01FC9C55197C}
+		{909D9AD0-D185-4721-86B5-C4F9F9557834} = {E74FB4A6-47D8-4566-8EC3-01FC9C55197C}
+		{BCBC7805-27E2-46B9-9848-B6762E980E66} = {71C53E05-061E-4206-A4A7-DF66540D62E8}
+		{5954E66D-7B4C-47FC-B11E-A3FA50D163D5} = {71C53E05-061E-4206-A4A7-DF66540D62E8}
+	EndGlobalSection
+EndGlobal
